@@ -1,0 +1,273 @@
+* {
+	margin: 0;
+    padding: 0;
+}
+html {scroll-behavior: smooth;}
+
+body {
+    font-family: 'Arial', Serif;
+    font-size: 15px;
+    margin: 0;
+    padding: 0
+}
+.btn {
+	font-size: 14px;
+	font-weight: bolder;
+}
+header {
+    background: url(../img/header.jpg) no-repeat center center fixed;
+    height: 750px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.header-title {	
+	margin-top:14%;
+	color: #fff;
+    font-size: 22px;
+    line-height: 35px;
+	font-weight: bold;
+}
+
+.btn {
+	border-radius: 2px;
+}
+
+header .btn {
+	border: none;
+	border-bottom: 5px solid #d8b9a0;
+	color: #000;
+	background-color: #ffe7d4;
+}
+
+/* navbar */
+.navbar {
+	background-color: #249c9b;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	font-size: 14px;
+	color: #FFF; 
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+	background-color: #000;
+	border-radius: 5px;
+	padding: 5px 15px;
+	color: #FFF;
+	margin-top: 2px;
+}
+
+
+
+/* activity */ 
+.activity, .whichActivity {
+    padding-top: 70px;
+    padding-bottom: 200px;
+	background-color: #dc8fd1; 
+	position: relative;
+}
+
+.whichActivity { 
+	background-color: #FFF;  
+	padding-bottom: 20px;
+	text-align: justify;
+}
+
+.activity-top  h3, .whichActivity h3 { 
+	font-weight: 700;
+	font-size: 40px; 
+}
+
+.activity-top p, .whichActivity p {  
+	font-size: 16px; 
+	margin-bottom: 70px;
+	
+}
+
+.activity-content .activity-circle {
+	width: 220px;
+	height: 220px;
+	/* background-color: black;  */
+	border-radius: 220px;
+	margin:0 auto;
+	border: 6px solid #fff;
+	margin-bottom: 20px;
+}
+
+.whichActivity-content .whichActivity-circle {
+	width: 220px;
+	height: 220px;
+	background-color: transparent;
+	border-radius: 220px;
+	margin:0 auto;
+	margin-bottom: 20px;
+}
+
+.activity-content h4, .whichActivity h4 { 
+	font-weight: 700;
+	font-size: 16px;
+}
+
+.activity-content h5, .whichActivity h5{ 
+	font-size: 14px; 
+	text-align: center;
+}
+
+.activity-bottom { 
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.activity-bottom-content { 
+	background-color: #eab1ce;
+	border-top: 6px solid #ec90cd;
+	border-left: 6px solid #ec90cd;
+	right: 15px;
+}
+
+
+/* ziyaretci yorumlari */ 
+.visitor {
+    padding-top: 70px;
+    padding-bottom: 50px;
+	background-color: #ffedcb;  
+}
+
+.visitor h3 { 
+	font-weight: 700;
+	font-size: 40px; 
+}
+
+.visitor h5 { 
+	font-size: 18px; 
+	font-weight: bold;
+}
+
+.visitor p {  
+	font-size: 16px; 
+	margin-bottom: 20px;
+}
+
+.visitor-content .visitor-circle {
+	min-width: 100px;
+	height: 100px;
+	background-color: #a18c6d;
+	border-radius: 140px;
+	margin:0 45px;
+	margin-bottom: 20px;
+}
+
+.visitor .btn {  
+	background-color: #a1acbd;
+	border: none;
+	border-bottom: 5px solid #222;
+	color: #274878;
+	font-weight: bolder;
+}
+.btn:hover {
+	background-color: #b1c4e0;
+	color: #264473;
+
+}
+
+
+
+
+
+
+
+
+
+/* CONTACT*/
+.container p span {font-weight: bolder;}
+#contact { 
+	background-color: #4e7474; 
+	padding: 70px 0; 
+}
+
+#contact label{ 
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+ 
+.contact-top h3 { 
+	font-weight: 700;
+	font-size: 40px; 
+
+}
+
+.contact-top p {  
+	font-size: 16px; 
+	margin-bottom: 70px;
+	
+} 
+.container .btn {
+	background-color: #a1acbd;
+	border: none;
+	border-bottom: 5px solid #222;
+	color: #274878;
+	font-weight: bolder;
+}
+
+.btn:hover {
+	background-color: #b1c4e0;
+	color: #264473;
+
+}
+
+
+/* Footer  */
+footer {  
+	background-color:  #4e7474;
+}
+
+.company-social-icons {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+
+}
+
+.company-social-icon {
+	display: inline;
+	padding-left: 9px;
+	padding-right: 9px;
+	color: #fff;
+
+}
+
+.company-social-icon .fab {
+	width: 40px;
+	height: 40px;
+	border-radius: 40px;
+	line-height: 40px;
+
+}
+.company-social-icon .fa-google { background-color: #f4cc2d; }
+.company-social-icon .fa-pinterest-p { background-color: #f90b0b; }
+.company-social-icon .fa-twitter { background-color: #0bcff9; }
+.company-social-icon .fa-facebook-f { background-color: #4062cf; }
+
+
+@media screen and (max-width: 1000px) {
+	h1, h2, h3, h4, h5, .activity-top h3, .whichActivity h3 {font-size: 18px;}
+	p {font-size: 13px;}
+	.btn { font-size: 12px;}
+	.header-title {	
+		margin-top:35%; 
+		font-size: 15px;
+	} 
+	
+}
+
+@media screen and (max-width: 768px) { 
+	.header-title {	
+		margin-top:45%;  
+	} 
+	.activity-content .activity-circle, .whichActivity-content .whichActivity-circle {width: 100px; height: 100px;}
+	.visitor-content .visitor-circle { margin: 0 15px;}
+}
